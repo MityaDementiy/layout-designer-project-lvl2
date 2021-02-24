@@ -4,7 +4,7 @@
   "description": "Music box",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass --watch src/scss/main.scss src/css/style.css"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/MityaDementiy/layout-designer-project-lvl2/issues"
   },
   "homepage": "https://github.com/MityaDementiy/layout-designer-project-lvl2#readme",
-  "dependencies": {},
+  "dependencies": {
+    "sass": "^1.32.8"
+  },
   "devDependencies": {
     "htmlhint": "^0.14.2",
     "stylelint": "^13.8.0",

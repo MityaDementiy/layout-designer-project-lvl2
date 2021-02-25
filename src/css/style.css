@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
 /* Document
    ========================================================================== */
@@ -447,6 +455,32 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 57;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */

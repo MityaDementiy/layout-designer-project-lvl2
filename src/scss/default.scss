@@ -1,0 +1,19 @@
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  @include set-text-style(700, 60px, 90, uppercase);
+}
+
+h2 {
+  @include set-text-style(700, 38px, 57, uppercase);
+}

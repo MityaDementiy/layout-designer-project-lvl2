@@ -1,0 +1,6 @@
+@mixin set-text-style ($font-weight, $font-size, $line-height, $text-transform) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  text-transform: $text-transform;
+}

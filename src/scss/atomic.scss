@@ -1,3 +1,33 @@
 .d-flex {
   display: flex;
 }
+
+.align-center {
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.header-text {
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-transform: uppercase;
+}
+
+.nowrap {
+  white-space: nowrap;
+}

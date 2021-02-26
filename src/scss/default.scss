@@ -14,9 +14,9 @@ html {
 }
 
 h1 {
-  @include set-text-style(700, 60px, 90, uppercase);
+  @include set-text-style(700, 60px, 90px, uppercase);
 }
 
 h2 {
-  @include set-text-style(700, 38px, 57, uppercase);
+  @include set-text-style(700, 38px, 57px, uppercase);
 }

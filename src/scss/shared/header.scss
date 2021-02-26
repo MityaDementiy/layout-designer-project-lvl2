@@ -43,26 +43,16 @@
   border-radius: 50px;
 }
 
-// .header {
-//   background: url(../images/Morten-Harket.png) no-repeat center;
-//   background-size: cover;
-// }
-
-.header::before {
+.header {
   position: absolute;
-
-  top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
+}
 
-  z-index: -1;
+.artist-promo {
+  padding-top: 250px;
+  padding-bottom: 223px;
 
-  background-image: url(../images/Morten-Harket.png);
-
-  background-repeat: no-repeat;
-
+  background: url(../images/Morten-Harket.png) no-repeat center;
   background-size: cover;
-
-  content: "";
 }

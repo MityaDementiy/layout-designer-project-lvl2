@@ -475,14 +475,14 @@ html {
 h1 {
   font-weight: 700;
   font-size: 60px;
-  line-height: 90;
+  line-height: 90px;
   text-transform: uppercase;
 }
 
 h2 {
   font-weight: 700;
   font-size: 38px;
-  line-height: 57;
+  line-height: 57px;
   text-transform: uppercase;
 }
 
@@ -518,6 +518,10 @@ h2 {
 
 .nowrap {
   white-space: nowrap;
+}
+
+.white {
+  color: #fff;
 }
 
 .menu {
@@ -557,17 +561,17 @@ h2 {
   border-radius: 50px;
 }
 
-.header::before {
+.header {
   position: absolute;
-  top: 0;
   right: 0;
-  bottom: 0;
   left: 0;
-  z-index: -1;
-  background-image: url(../images/Morten-Harket.png);
-  background-repeat: no-repeat;
+}
+
+.artist-promo {
+  padding-top: 250px;
+  padding-bottom: 223px;
+  background: url(../images/Morten-Harket.png) no-repeat center;
   background-size: cover;
-  content: "";
 }
 
 /*# sourceMappingURL=style.css.map */

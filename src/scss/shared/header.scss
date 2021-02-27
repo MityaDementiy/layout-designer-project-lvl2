@@ -97,6 +97,53 @@
   margin-right: 16px;
 }
 
+.popular-tracks {
+  padding-top: 100px;
+
+  background: $black;
+}
+
+.popular-tracks-list {
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.track {
+  align-items: center;
+  // flex: 1 1 500px;
+  width: 551px;
+}
+
+.popular-track-image {
+  margin-right: 15px;
+}
+
+.track-info {
+  flex-direction: column;
+}
+
+.track-title {
+  font-weight: 700;
+  font-size: 12.8px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.track-author,
+.track-timing {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+.track-timing {
+  margin-left: auto;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
 // Responsive
 
 @media screen and (max-width: 1199px) {

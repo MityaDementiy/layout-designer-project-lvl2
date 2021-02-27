@@ -511,10 +511,6 @@ h2 {
   padding-top: 25px;
 }
 
-.mr-88 {
-  margin-right: 88px;
-}
-
 .mr-24 {
   margin-right: 24px;
 }
@@ -553,6 +549,10 @@ h2 {
 
 .menu-item:nth-child(4) {
   margin-right: 0;
+}
+
+.logo-group {
+  margin-right: 88px;
 }
 
 .logo {
@@ -625,6 +625,102 @@ h2 {
   width: 20px;
   height: 20px;
   margin-right: 16px;
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 100%;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .site-search {
+    max-width: 248px;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .logo-group {
+    margin-right: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .menu-item {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+
+  .site-search {
+    max-width: 100%;
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 85%;
+    margin: 0;
+    padding: 25px 20px;
+  }
+
+  .menu {
+    margin-top: 17px;
+  }
+
+  .menu-item {
+    margin-top: 0;
+    margin-bottom: 3px;
+  }
+
+  .site-search {
+    width: 100%;
+    margin-top: 11px;
+    margin-left: 0;
+  }
+
+  .artist-promo {
+    padding-top: 200px;
+  }
+
+  .artist-name {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    margin-top: 45px;
+  }
+
+  .button {
+    flex: 0;
+    max-width: 200px;
+  }
+
+  .button:nth-child(1) {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

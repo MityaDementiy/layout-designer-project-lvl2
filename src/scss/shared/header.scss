@@ -1,6 +1,4 @@
 .menu {
-  margin-left: 88px;
-
   list-style-type: none;
 }
 
@@ -17,14 +15,13 @@
 }
 
 .site-search {
-  max-width: 248px;
-  margin-left: 451px;
+  width: 248px;
+  margin-left: auto;
 }
 
 .search-input {
-  width: 100%;
+  width: 98%;
   height: 25px;
-  padding: 0 14px;
 
   color: #757575;
 
@@ -35,6 +32,7 @@
   font-family: Arial, sans-serif;
   line-height: 15px;
   text-transform: uppercase;
+  text-indent: 8px;
 
   background: $dark;
 
@@ -55,4 +53,42 @@
 
   background: url(../images/Morten-Harket.png) no-repeat center;
   background-size: cover;
+}
+
+.fans-quantity {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.buttons {
+  margin-top: 48px;
+}
+
+.button {
+  flex: 1 1 200px;
+  max-width: 200px;
+  padding-top: 21px;
+  padding-bottom: 22px;
+  padding-left: 30px;
+
+  font-weight: 400;
+
+  font-size: 12.8px;
+  line-height: 150%;
+  text-transform: uppercase;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: $black;
+}
+
+.btn-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
 }

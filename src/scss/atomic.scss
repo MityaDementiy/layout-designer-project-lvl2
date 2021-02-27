@@ -20,9 +20,21 @@
   padding-top: 25px;
 }
 
+.mr-88 {
+  margin-right: 88px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
 .header-text {
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
@@ -34,4 +46,12 @@
 
 .white {
   color: $white;
+}
+
+.bg-purple {
+  background: $purple;
+}
+
+.bg-red {
+  background: $red;
 }

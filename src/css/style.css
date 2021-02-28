@@ -547,6 +547,10 @@ h2 {
   margin-bottom: 25px;
 }
 
+.pt-100 {
+  padding-top: 100px;
+}
+
 .menu {
   list-style-type: none;
 }
@@ -731,7 +735,6 @@ h2 {
   }
 }
 .popular-tracks {
-  padding-top: 100px;
   background: #08020d;
 }
 

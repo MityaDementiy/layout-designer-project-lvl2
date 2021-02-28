@@ -551,6 +551,18 @@ h2 {
   padding-top: 100px;
 }
 
+.bg-black {
+  background: #08020d;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
 .menu {
   list-style-type: none;
 }
@@ -734,10 +746,6 @@ h2 {
     margin-bottom: 24px;
   }
 }
-.popular-tracks {
-  background: #08020d;
-}
-
 .popular-tracks-list {
   flex-wrap: wrap;
   margin-top: 48px;
@@ -772,6 +780,23 @@ h2 {
 
 .track-timing {
   margin-left: auto;
+}
+
+.albums-list {
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.album-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.album-year {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
 }
 
 @media screen and (max-width: 1199px) {
@@ -809,12 +834,27 @@ h2 {
     font-size: 18px;
     line-height: 27px;
   }
+
+  .album {
+    width: 139px;
+    padding: 1px 0;
+  }
+
+  .album-image {
+    width: 137px;
+  }
 }
 @media screen and (max-width: 575px) {
   .container {
     max-width: 90%;
     margin: 0;
     padding: 0 20px;
+  }
+
+  .album:nth-child(2),
+.album:nth-child(4),
+.album:nth-child(6) {
+    margin-right: 0;
   }
 }
 

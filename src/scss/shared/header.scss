@@ -47,6 +47,7 @@
 
 .header {
   position: absolute;
+  top: 25px;
   right: 0;
   left: 0;
 }
@@ -156,7 +157,7 @@
   .container {
     max-width: 85%;
     margin: 0;
-    padding: 25px 20px;
+    padding: 0 25px;
   }
 
   .menu {
@@ -175,17 +176,18 @@
   }
 
   .artist-promo {
-    padding-top: 200px;
+    padding-top: 225px;
   }
 
   .artist-name {
+    margin-bottom: 13px;
+
     font-size: 30px;
     line-height: 45px;
   }
 
   .buttons {
     flex-direction: column;
-    margin-top: 45px;
   }
 
   .button {

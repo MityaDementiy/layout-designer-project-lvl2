@@ -571,6 +571,12 @@ h2 {
   margin-right: 24px;
 }
 
+.menu-item:hover,
+.logo-text:hover {
+  color: #95390c;
+  cursor: pointer;
+}
+
 .menu-item:nth-child(4) {
   margin-right: 0;
 }
@@ -581,6 +587,10 @@ h2 {
 
 .logo {
   margin-right: 16px;
+}
+
+.logo:hover {
+  cursor: pointer;
 }
 
 .site-search {

@@ -523,8 +523,8 @@ h2 {
   margin-bottom: 17px;
 }
 
-.pb-100 {
-  padding-bottom: 100px;
+.pb-75 {
+  padding-bottom: 75px;
 }
 
 .header-text {
@@ -921,10 +921,6 @@ h2 {
 
   .album:nth-child(5) {
     margin-bottom: 25px;
-  }
-
-  main {
-    padding-bottom: 75px !important;
   }
 }
 

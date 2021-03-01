@@ -40,6 +40,8 @@
 }
 
 .album-name {
+  margin-bottom: 1px;
+
   font-weight: 700;
   font-size: 18px;
 
@@ -52,6 +54,30 @@
   line-height: 150%;
 }
 
+.similar-artist-list {
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.similar-artist {
+  flex-direction: column;
+  align-items: center;
+}
+
+.similar-artist-name {
+  margin-bottom: 1px;
+
+  font-weight: 700;
+  font-size: 18px;
+
+  line-height: 27px;
+}
+
+.similar-artist-fans {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
 // Responsive
 
 @media screen and (max-width: 1199px) {
@@ -92,13 +118,23 @@
     line-height: 27px;
   }
 
-  .album {
+  .album,
+  .similar-artist {
     width: 139px;
     padding: 1px 0;
   }
 
-  .album-image {
+  .album-image,
+  .similar-artist-image {
     width: 137px;
+  }
+
+  .similar-artist-fans {
+    text-align: center;
+  }
+
+  .similar-artist-name {
+    margin-bottom: 0;
   }
 }
 
@@ -116,7 +152,19 @@
     margin-right: 0;
   }
 
+  .similar-artist {
+    margin-right: 0;
+  }
+
+  .similar-artist:nth-child(odd) {
+    margin-right: 50px;
+  }
+
   .album:nth-child(5) {
     margin-bottom: 25px;
+  }
+
+  main {
+    padding-bottom: 75px !important;
   }
 }

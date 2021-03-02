@@ -1029,10 +1029,5 @@ h2 {
     margin-bottom: 0;
   }
 }
-@media screen and (max-width: 400px) {
-  .container {
-    max-width: 85%;
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
